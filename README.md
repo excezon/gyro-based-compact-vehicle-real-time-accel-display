@@ -2,7 +2,10 @@
 
 A compact STM32-based real-time acceleration and tilt display device designed for vehicles and motion monitoring scenarios.  
 It uses an onboard IMU sensor to calculate dynamic acceleration and inclination angle in real time, and presents the data through dual 4-digit seven-segment displays and a 5-level LED acceleration indicator.
-
+### PCB Design
+<div align="center">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/PCB_top_layer.png" alt="PCB_top_layer" width="50%">
+</div>
 ## Project Overview
 This project is a compact portable real-time motion display system.
 
@@ -85,22 +88,22 @@ When the device stays motionless and both acceleration and tilt remain within pr
 ## Hardware Preview
 ### PCB Design
 <div align="center">
-<img src="https://github.com/excezon/portable-lcd-driver-board/raw/main/assets/PCB_top_layer.png" alt="PCB_top_layer" width="50%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/PCB_top_layer.png" alt="PCB_top_layer" width="50%">
 </div>
 
 <div align="center">
-<img src="https://github.com/excezon/portable-lcd-driver-board/raw/main/assets/PCB_bottom_layer.png" alt="PCB_bottom_layer" width="50%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/PCB_bottom_layer.png" alt="PCB_bottom_layer" width="50%">
 </div>
 
 ### Schematic Diagram
 <div align="center">
-<img src="https://github.com/excezon/portable-lcd-driver-board/raw/main/assets/Schematic.png" alt="Schematic" width="50%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/Schematic.png" alt="Schematic" width="50%">
 </div>
 
 ## Real Device
 <div align="center">
-<img src="https://github.com/excezon/portable-lcd-driver-board/raw/main/assets/display_image.jpg" alt="device_photo_1" width="45%">
-<img src="https://github.com/excezon/portable-lcd-driver-board/raw/main/assets/display_image_2.jpg" alt="device_photo_2" width="45%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_image.jpg" alt="device_photo_1" width="45%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_image_2.jpg" alt="device_photo_2" width="45%">
 </div>
 
 ## Project Value
@@ -118,6 +121,3 @@ This project is a strong embedded portfolio piece that reflects practical engine
 - Portable acceleration / attitude indicator
 - Embedded sensing demonstration platform
 - Personal embedded systems portfolio project
-
-## Author
-Designed and developed as a personal embedded systems project for portfolio and job application showcase.
