@@ -3,10 +3,10 @@
 A compact STM32-based real-time acceleration and tilt display device designed for vehicles and motion monitoring scenarios.  
 It uses an onboard IMU sensor to calculate dynamic acceleration and inclination angle in real time, and presents the data through dual 4-digit seven-segment displays and a 5-level LED acceleration indicator.
 <div align="center">
-<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo1.png" alt="display_demo1" width="50%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo1.jpg" alt="display_demo1" width="50%">
 </div>
 <div align="center">
-<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo2.png" alt="display_demo2" width="50%">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo2.jpg" alt="display_demo2" width="50%">
 </div>
 ### PCB Design
 <div align="center">
