@@ -8,10 +8,12 @@ It uses an onboard IMU sensor to calculate dynamic acceleration and inclination 
 <div align="center">
 <img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo2.jpg" alt="display_demo2" width="50%">
 </div>
+
 ### PCB Design
 <div align="center">
 <img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/PCB_top_layer.png" alt="PCB_top_layer" width="50%">
 </div>
+
 ### Project Overview
 This project is a compact portable real-time motion display system.
 
