@@ -9,39 +9,10 @@ It uses an onboard IMU sensor to calculate dynamic acceleration and inclination 
 <img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_demo2.jpg" alt="display_demo2" width="50%">
 </div>
 
-### PCB Design
+## PCB Design
 <div align="center">
 <img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/PCB_top_layer.png" alt="PCB_top_layer" width="50%">
 </div>
-
-### Project Overview
-This project is a compact portable real-time motion display system.
-
-It is designed to measure and visualize:
-- **Current acceleration** in real time
-- **Current tilt angle / inclination**
-- **Acceleration intensity** through LED bar indication
-
-At power-on, the device waits for **1 second** and samples the IMU output to calculate the average sensor baseline.  
-The current device orientation is then treated as the **horizontal reference position**. At the same time, gravity compensation is applied so that the displayed acceleration is initialized to **0** in the current static state.
-
-During operation:
-- The **upper 4-digit display** shows the current real-time acceleration
-- The **lower 4-digit display** shows the current tilt angle
-- The **5 red LEDs on the left side** indicate acceleration magnitude:
-  - higher acceleration lights more LEDs
-  - when acceleration exceeds a predefined threshold, the LEDs **flash rapidly** as a warning
-
-To improve long-term stability, when the device remains still for more than **5 seconds** and both acceleration and tilt change stay within a small threshold, the system will automatically:
-- re-calibrate the current orientation as horizontal
-- compensate gravity again
-- reset the displayed acceleration back to 0
-
-The device supports **dual power input**, including:
-- **USB-C power**
-- **Lithium battery power**
-
-This project demonstrates embedded system design across hardware, firmware, sensor calibration, motion data processing, real-time display driving, and portable power management.
 
 ## Key Features
 - Real-time **acceleration** display
