@@ -59,7 +59,7 @@ When the device stays motionless and both acceleration and tilt remain within pr
 </div>
 
 ## Project Value
-This project is a strong embedded portfolio piece that reflects practical engineering ability in:
+This project highlights several notable aspects of embedded system design, including:
 - embedded hardware design
 - STM32 firmware development
 - IMU data processing
