@@ -18,9 +18,8 @@ It uses an onboard IMU sensor to calculate dynamic acceleration and inclination 
 - 5-level LED acceleration intensity indicator
 - Threshold-triggered fast flashing warning
 - Automatic static-state re-calibration
-- Power-on baseline averaging and gravity compensation
 - **USB-C + battery** dual power supply
-- Compact PCB design suitable for portable or in-vehicle use
+- Based on **STM32F401RCT6**
 
 ## System Behavior
 ### Power-On Calibration
