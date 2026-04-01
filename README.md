@@ -43,6 +43,11 @@ After power-up, the device:
 ### Automatic Re-Zero / Re-Leveling
 When the device stays motionless and both acceleration and tilt remain within preset thresholds for more than 5 seconds, the system automatically redefines the current position as level and re-zeros the acceleration output.
 
+## Workflow
+<div align="center">
+<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/Work_flow.png" alt="Work_flow" width="100%">
+</div>
+
 ## Hardware Preview
 ### PCB Design
 <div align="center">
