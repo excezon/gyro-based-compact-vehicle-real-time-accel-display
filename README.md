@@ -46,24 +46,6 @@ After power-up, the device:
 ### Automatic Re-Zero / Re-Leveling
 When the device stays motionless and both acceleration and tilt remain within preset thresholds for more than 5 seconds, the system automatically redefines the current position as level and re-zeros the acceleration output.
 
-## Hardware Highlights
-- **STM32 microcontroller** based control system
-- **IMU sensor** for motion and attitude detection
-- Dual 4-digit seven-segment display modules
-- 5 red LEDs for acceleration level indication
-- USB-C power input
-- Lithium battery power support
-- Compact custom PCB
-
-## Firmware Highlights
-- Sensor sampling and averaging
-- Startup baseline calibration
-- Gravity compensation
-- Static-state detection
-- Automatic drift correction / re-zeroing
-- Real-time display refresh
-- LED threshold warning logic
-
 ## Hardware Preview
 ### PCB Design
 <div align="center">
@@ -77,12 +59,6 @@ When the device stays motionless and both acceleration and tilt remain within pr
 ### Schematic Diagram
 <div align="center">
 <img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/Schematic.png" alt="Schematic" width="50%">
-</div>
-
-## Real Device
-<div align="center">
-<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_image.jpg" alt="device_photo_1" width="45%">
-<img src="https://github.com/excezon/gyro-based-compact-vehicle-real-time-accel-display/raw/main/assets/display_image_2.jpg" alt="device_photo_2" width="45%">
 </div>
 
 ## Project Value
